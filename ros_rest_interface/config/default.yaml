@@ -1,0 +1,5 @@
+uri: http://localhost:8080
+defualt_subscribed_topics:
+  - /first_topic
+  - /another_topic
+  - /also_a_topic

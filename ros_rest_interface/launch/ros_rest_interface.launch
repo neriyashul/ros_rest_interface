@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- Launch ROS Rest Interface Node -->
+  <node pkg="ros_rest_interface" type="ros_rest_interface" name="ros_rest_relay" output="screen" >
+    <rosparam command="load" file="$(dirname)/../config/default.yaml" />
+  </node>
+
+</launch>
