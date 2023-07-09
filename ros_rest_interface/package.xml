@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_rest_interface</name>
+  <version>0.0.1</version>
+  <description>Software engineer position home assignment</description>
+
+  <maintainer email="neriyashul@gmail.com">Neriya SHulman</maintainer>
+  <maintainer email="neriyashul@gmail.com">Neriya SHulman</maintainer>
+  <license>BSD</license>
+  <test_depend>gtest</test_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>roslint</build_depend>
+  <build_depend>cpprestsdk</build_depend>
+
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>roslint</build_export_depend>
+  <exec_depend>cpprestsdk</exec_depend>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>roslint</exec_depend>
+
+
+  <export>
+  </export>
+</package>
