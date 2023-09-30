@@ -1,3 +1,8 @@
+# About
+
+ROS node for ROS-REST interface<br>
+As an example, the node registers and publishes to several ROS topics while exposing a REST API to interact with these topics
+
 # How to use
 
 1. install ros and catkin workspace:
